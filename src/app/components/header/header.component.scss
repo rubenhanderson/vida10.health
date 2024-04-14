@@ -1,0 +1,14 @@
+.app-header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    padding: 20px;
+    z-index: 1000;
+}
+
+@media (max-width: 768px) {
+    .app-header {
+        display: none;
+    }
+}
